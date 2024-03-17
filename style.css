@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+}
+.div {
+    margin-left: 20px;;
+    background-color: gray;
+    padding:10p;
+}
+
+@media screen and (max-width:600px) {
+    .content{
+        flex-wrap: wrap;
+    }
+}
